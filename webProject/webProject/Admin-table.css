@@ -1,0 +1,49 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'MuseoModerno', sans-serif;
+        text-decoration: none;
+        list-style: none;
+    }
+
+    :root {
+        --text-color: #000000;
+        --bg-color: #e5e5e5;
+        --main-color: #f29494;
+        --second-color: #fff;
+        --orher-color: #868686;
+        --big-font: 5.5rem;
+        --p-font: 1rem;
+    }
+
+    body {
+        font-family: 'MuseoModerno', sans-serif;
+        background-color: var(--bg-color);
+    }
+
+    table {
+        border-collapse: collapse;
+        min-width: 100vh;
+        margin: 270px auto;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+
+    }
+
+    th,
+    td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+    h2 {
+        text-align: center;
+        color: var(--big-font);
+    }
